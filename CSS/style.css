@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+    font-family: 'Varela Round', sans-serif;
+}
+
+header {
+    background: #6cd47f;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.title {
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    text-shadow: 2px 5px 5px black;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+section {
+    padding: 10px;
+    background-image: url(../imagens/people.jfif);
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    border-radius: 2px;
+}
+
+.formContainer {
+    max-width: 230px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    float: right;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #6cd47f;
+    text-shadow: 3px 3px 5px black;
+    font-weight: bold;
+}
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(../imagens/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+footer {
+    background: gray;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture {
+    width: 130px;
+    border-radius: 10px;
+}
+
+.description h3, .description p {
+    margin-bottom: 10px;
+}
+
+.description {
+    max-width: 40%;
+    display: inline-block;
+    margin-left: 15px;
+    text-align: left;
+}
+
+@media screen and (max-width: 700px){ 
+    .formContainer {
+        max-width: 500px;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 20px;
+        border-radius: 5px;
+    }
+}
+    
